@@ -1,14 +1,22 @@
-.panel, .panel-default{
-	margin-top:100px;
-	margin-bottom:200px;
-	margin-left:250px;
-	margin-right:300px;
+/*------------------------------------------------Navigation BAr---------------------------------------------*/
+.navbar{
+        background-color:#9b183b;
+        border:transparent;
 }
-/*-------------------------------Form----------------------------*/
-.form-group:focus{
-        background-color: #A9A9A9;
+    .nav.navbar-nav li a {
+    color:#19050a;
 }
-/*------------------------------FOOTER------------------------------------*/
+#logo{
+color:black;
+background-color:#a07a83;
+}
+.nav, .navbar-nav, .navbar-right{
+    margin-top:8px;
+
+}
+/*---------------------------------------------Footer-----------------------------------*/
+
+
 .footer_text{
 	color:		#808080;
 }
@@ -123,7 +131,7 @@ background-color:#9b183b;;
     width: 100%;
 }
 .copyright {
-     color:#19050a;
+   color:#19050a;
     line-height: 30px;
     min-height: 30px;
     padding: 7px 0;
@@ -136,18 +144,46 @@ background-color:#9b183b;;
     text-align: right;
 }
 .design a {
-   color:#19050a;
-}
-/*------------------------------------------------Navigation BAr---------------------------------------------*/
-.navbar{
-        background-color:#9b183b;
-        border:transparent;
-}
-    .nav.navbar-nav li a {
     color:#19050a;
 }
-
-#logo{
-color:black;
-background-color:#a07a83;
+#temporary{
+	margin-top:700px;
+	
 }
+/*--------------------------------------------------------------------Tabs */
+body {
+  padding : 10px ;
+  
+}
+
+#exTab2{
+    margin-top:50px;
+    margin-left:200px;
+    margin-right:200px;
+}
+#exTab2 h3 {
+  color : black;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+
+
+
